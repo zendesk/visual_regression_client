@@ -1,0 +1,5 @@
+export const STEP_STATUS = {
+  ACCEPTED: 'ACCEPTED',
+  TO_REVIEW: 'TO_REVIEW',
+  REJECTED: 'REJECTED'
+};

@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+
+  > * {
+    flex: 1;
+    max-height: 500px;
+  }
+}
+
+.screenshotWrapper {
+  &:nth-child(even) {
+    margin: 0 20px 0 10px;
+  }
+
+  &:nth-child(odd) {
+    margin: 0 10px 0 20px;
+  }
+}

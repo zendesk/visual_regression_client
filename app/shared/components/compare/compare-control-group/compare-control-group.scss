@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.buttonWrapper {
+  margin: 0 10px;
+}
+
+.button {
+  border: 0;
+  &, * {
+    color: white;
+  }
+}
+
+.acceptButton {
+  composes: button;
+  background-color: #37B8AF;
+
+  &:hover {
+    background-color: darken(#37B8AF, 10%);
+  }
+}
+
+.rejectButton {
+  composes: button;
+  background-color: #F79A3E;
+
+  &:hover {
+    background-color: darken(#F79A3E, 10%);
+  }
+}

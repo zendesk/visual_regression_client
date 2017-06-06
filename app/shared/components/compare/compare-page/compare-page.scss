@@ -1,0 +1,44 @@
+.controlGroup {
+  padding-top: 10px;
+}
+
+.controls {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.controlButtons {
+  > *:first-child {
+    margin-right: 20px !important;
+  }
+
+  > * {
+    padding: 5px 10px;
+
+    &:disabled {
+      &:hover {
+        cursor: default;
+      }
+    }
+  }
+}
+
+.disabled {
+  background-color: gray;
+}
+
+.disabled:hover {
+  cursor: default;
+}
+
+.saveButton{
+  font-size: 14px;
+}
+
+.remainingMessage {
+  font-style: italic;
+  margin-bottom: 5px;
+  text-align: right;
+  color: #999;
+}

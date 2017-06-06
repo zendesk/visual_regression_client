@@ -1,0 +1,1 @@
+export const getCompareId = (id, spec, browser) => `${id}-${spec}-${browser}`;

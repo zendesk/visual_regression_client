@@ -1,0 +1,57 @@
+.container {
+  margin: 20px;
+}
+
+.card {
+  box-shadow: 0 10px 20px 0 rgba(36, 83, 107, .15);
+  border: 1px solid #EEE;
+}
+
+.title {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.controlGroup {
+  & + .controlGroup {
+    margin-top: 20px;
+  }
+}
+
+.accepted {
+  background: lighten(#37B8AF, 20%);
+}
+
+.rejected {
+  background: lighten(#F79A3E, 20%);
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.button {
+  border: 0;
+  &, * {
+    color: #555;
+  }
+}
+
+.undoButton {
+  composes: button;
+  background-color: #FAC157;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background-color: darken(#FAC157, 10%);
+  }
+}
+
+.icon {
+  margin-left: 2px;
+  line-height: 1em;
+}

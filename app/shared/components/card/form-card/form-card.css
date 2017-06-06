@@ -1,0 +1,14 @@
+.card {
+  font-size: 18px;
+}
+
+.card ~ .card {
+  margin-top: 10px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+}

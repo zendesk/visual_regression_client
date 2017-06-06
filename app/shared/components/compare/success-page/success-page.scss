@@ -1,0 +1,30 @@
+.success {
+  max-width: 500px;
+  margin: 50px auto 0;
+  text-align: center;
+
+  h2 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+
+  h3 {
+    color: #999;
+    margin-bottom: 20px;
+  }
+}
+
+.tick {
+  svg {
+    height: 28px;
+    width: 28px;
+  }
+
+  & {
+    color: #37B8AF;
+  }
+}
+
+.button {
+  font-size: 14px;
+}

@@ -1,0 +1,8 @@
+@import '~zd-css-bedrock/dist/index';
+
+a {
+  color: #30AABC;
+  &:hover, &:focus, &:active {
+    color: darken(#30AABC, 20%);
+  }
+}
